@@ -146,6 +146,7 @@ LowLevelManipulationModeFormat = con.Enum(
     calibration=0,
     phase_manipulation=1,
     scalar_control=2,
+    rotor_locking=3,
 )
 
 

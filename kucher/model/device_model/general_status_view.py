@@ -79,12 +79,14 @@ class LowLevelManipulationMode(enum.Enum):
     CALIBRATION         = enum.auto()
     PHASE_MANIPULATION  = enum.auto()
     SCALAR_CONTROL      = enum.auto()
+    ROTOR_LOCKING       = enum.auto()
 
 
 LOW_LEVEL_MANIPULATION_MODE_MAPPING: typing.Dict[str, LowLevelManipulationMode] = {
     'calibration':          LowLevelManipulationMode.CALIBRATION,
     'phase_manipulation':   LowLevelManipulationMode.PHASE_MANIPULATION,
     'scalar_control':       LowLevelManipulationMode.SCALAR_CONTROL,
+    'rotor_locking':        LowLevelManipulationMode.ROTOR_LOCKING,
 }
 
 
